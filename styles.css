@@ -1,0 +1,39 @@
+.navbarSet {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.navbarLi {
+    float: left;
+    border-right: 59.5px solid #666;
+    
+  }
+
+.navbara{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.navbarLi .navbara:hover{
+    background-color: rgb(230, 29, 217);
+}
+
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
